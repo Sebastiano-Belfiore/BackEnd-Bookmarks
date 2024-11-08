@@ -1,0 +1,38 @@
+{
+  "name": "bookmarks-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon ./src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-db": "node ./scripts/setup_db.js",
+    "delete-db": "node ./scripts/delete_db.js",
+    "seed-db": "ts-node ./scripts/seed_db.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianoBelf/Bookmarks.git"
+  },
+  "author": "Sebastiano Belfiore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianoBelf/Bookmarks/issues"
+  },
+  "homepage": "https://github.com/SebastianoBelf/Bookmarks#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.3",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.11",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
