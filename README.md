@@ -3,6 +3,7 @@
 ## Introduction
 This is the **backend** for the **Bookmarks** project, an application to manage **bookmarks** (favorites) and **tags** associated with them. The backend provides RESTful APIs to handle **bookmarks** and **tags** operations, allowing users to **create**, **read**, **update**, and **delete** bookmarks and tags.
 
+You can find the **Frontend repository** here: [Bookmarks Frontend Repository](https://github.com/Sebastiano-Belfiore/FrontEnd-Bookmarks)
 
 ## Features
 - **Manage bookmarks and tags**: Create, read, update, and delete bookmarks and tags.
